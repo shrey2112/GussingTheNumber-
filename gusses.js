@@ -9,9 +9,9 @@ while(parseInt(gusse) !== targetNum){
     attempt++;
     if (gusse  === 'q') break;
     if(gusse > targetNum){
-        gusse = prompt("Too high, try again!");
+        gusse = prompt("Too high, try again!(enter q for quit)");
     }else{
-        gusse = prompt("Too low, try again!");
+        gusse = prompt("Too low, try again!(enter q for quit)");
     }
 }
 if (gusse === 'q'){
