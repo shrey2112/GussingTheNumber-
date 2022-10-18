@@ -17,6 +17,6 @@ while(parseInt(guesses) !== targetNum){
 if (guesses === 'Q'){
     console.log("OK, YOU QUIT!");
 }else{
-    console.log("CONGRATS, YOU WIN!");
+    console.log("CONGRATS, YOU HAVE WON THE GAME!");
     console.log(`YOU GOT IT, it took you ${attempt} guesses`);
 }
